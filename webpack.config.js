@@ -14,6 +14,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Clowdy Template',
     }),
+    new ESLintPlugin(),
   ],
   output: {
     filename: '[name].bundle.js',
