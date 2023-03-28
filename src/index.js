@@ -1,5 +1,5 @@
 import './style.css';
-import printMe from './other-stuff.js';
+import printMe from './other-stuff';
 
 function component() {
   const element = document.createElement('div');
