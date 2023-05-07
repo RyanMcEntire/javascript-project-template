@@ -4,7 +4,7 @@
   "description": "An ongoing repository for starting a project with webpack.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
@@ -14,6 +14,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-jest": "^29.5.0",
     "css-loader": "^6.7.3",
     "eslint": "^8.37.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -21,6 +24,8 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.5.0",
     "prettier": "2.8.7",
     "style-loader": "^3.3.2",
     "webpack": "^5.76.3",
